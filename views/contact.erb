@@ -42,7 +42,7 @@
             <!-- 576px以上の画面幅のとき、左側は3つ分のカラム幅で表示する指定を追加 -->
             <div class="col-sm-3">
                 <!-- 電話に関するBootstrap Iconsのアイコンを「お電話：」の左に追加 -->
-                <img class="mb-1" src="../kadai-bootstrap/icons/telephone-fill.svg" alt="電話アイコン"> <strong>お電話：</strong>
+                <img class="mb-1" src=".././icons/telephone-fill.svg" alt="電話アイコン"> <strong>お電話：</strong>
             </div>
 
             <!-- 576px以上の画面幅のとき、右側は9つ分のカラム幅で表示する指定を追加 -->
@@ -82,7 +82,7 @@
                     <!-- カードのタイトル部分として設定 -->
                     <div class="card-header">
                         <!-- 営業時間の情報に関するBootstrap Iconsのアイコンを「営業時間」の左に追加 -->
-                        <img class="mb-1" src="../kadai-bootstrap/icons/info-circle-fill.svg" alt="営業時間"> 営業時間
+                        <img class="mb-1" src=".././icons/info-circle-fill.svg" alt="営業時間"> 営業時間
                     </div>
 
                     <!-- カードの本文部分として設定 -->
@@ -98,7 +98,7 @@
             <!-- 576px以上の画面幅のとき、左側は3つ分のカラム幅で表示する指定を追加 -->
             <div class="col-sm-3">
                 <!-- メールに関するBootstrap Iconsのアイコンを「メール：」の左に追加 -->
-                <img class="mb-1" src="../kadai-bootstrap/icons/envelope.svg" alt="メール"> <strong>メール：</strong>
+                <img class="mb-1" src=".././icons/envelope.svg" alt="メール"> <strong>メール：</strong>
             </div>
 
             <!-- 576px以上の画面幅のとき、右側は9つ分のカラム幅で表示する指定を追加 -->
@@ -107,7 +107,7 @@
                     プライバシーポリシーをご確認いただき、ご同意の上で、送信ボタンをクリックしてください。<br />
                     お問い合わせの内容は、受付日から3営業日以内をめどにご返信いたします。
                 </p>
-                <form action="complete.html">
+                <form action="/" method="POST">
                     <!-- ラベルとフォーム部品を並べるためにグリッドを使う指定を追加 -->
                     <div class="row mb-3">
                         <!-- 576px以上の画面幅のとき、ラベルは3つ分のカラム幅で表示する指定を追加 -->
@@ -115,7 +115,7 @@
 
                         <!-- 576px以上の画面幅のとき、フォーム部品は9つ分のカラム幅で表示する指定を追加 -->
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" name="company">
+                            <input required rows="1" class="form-control" name="company">
                         </div>
                     </div>
 
@@ -126,7 +126,7 @@
 
                         <!-- 576px以上の画面幅のとき、フォーム部品は9つ分のカラム幅で表示する指定を追加 -->
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" name="name">
+                            <input required rows="1" class="form-control" name="name">
                         </div>
                     </div>
 
@@ -137,7 +137,7 @@
 
                         <!-- 576px以上の画面幅のとき、フォーム部品は9つ分のカラム幅で表示する指定を追加 -->
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" name="mail">
+                            <input required rows="1" class="form-control" name="mail">
                         </div>
                     </div>
 
@@ -148,7 +148,7 @@
 
                         <!-- 576px以上の画面幅のとき、フォーム部品は9つ分のカラム幅で表示する指定を追加 -->
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" name="tel">
+                            <input required rows="1" class="form-control" name="tel">
                         </div>
                     </div>
 
@@ -159,7 +159,7 @@
 
                         <!-- 576px以上の画面幅のとき、フォーム部品は9つ分のカラム幅で表示する指定を追加 -->
                         <div class="col-sm-9">
-                            <textarea class="form-control" name="content"></textarea>
+                            <textarea required class="form-control" name="content"></textarea>
                         </div>
                     </div>
 
